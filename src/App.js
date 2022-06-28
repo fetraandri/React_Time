@@ -1,10 +1,14 @@
-import "./App.css";
-import Clock from './Clock';
-
+import './App.css';
+import React, { Component } from "react";
+import Hide from './Clock/Hidden';
 
 
 function App() {
-  return <Clock></Clock>;
+  return (
+    <>
+    <Hide />
+    </>
+  );
 }
 
 export default App;
